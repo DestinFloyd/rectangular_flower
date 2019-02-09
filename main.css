@@ -1,0 +1,372 @@
+.coverRectangle{
+    border: solid blue;
+    display: flex;
+    height: 150px;
+    width: 150px;
+    
+    
+}
+.boxOverall{
+    height: 200px;
+    width: 400px;
+    display: flex; 
+    flex-direction: row;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+.boxLeft{
+   
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.boxRight{
+    
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.rec{
+    height: 50px;
+    width: 200px;
+    position: relative;
+    background: #005ce6;
+}
+.recL{
+    border-radius: 25px 0px 0px 25px;
+    
+
+}
+.recR{
+text-align: right;
+    border-radius: 0px 25px 25px 0px;
+
+}
+.circleRectangle{
+    background-color: black;
+    min-width: 100px;
+    max-height: 100px;
+    position: relative;
+    z-index: 10; 
+    transform: translate(-250px, 350px);
+}
+.rec1{
+    border: solid black;
+    transform: rotate(90deg) translate(-25px, -100px);
+
+}
+.rec2{
+    border: solid black;
+    transform: rotate(45deg) translate(-10px, -50px);
+
+}
+.rec3{
+    border: solid black;
+    transform: translateY(-25px);
+
+}
+.rec4{
+    border: solid black;
+    transform: rotate(-45deg) translate(20px, 25px);
+
+}
+.rec5{
+    border: solid black;
+    transform: rotate(-45deg) translate(-20px, -10px);
+
+}
+.rec6{
+    border: solid black;
+    transform: translateY(25px);
+
+}
+.rec7{
+    border: solid black;
+    transform: rotate(45deg)  translate(20px, 50px);
+
+}
+.rec8{
+    border: solid black;
+    transform: rotate(90deg) translate(25px, 100px);
+
+}
+
+.boxOverall2{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    display: flex; 
+    flex-direction: row;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+.recSet2{
+    height: 25px;
+    width: 150px;
+    background: #002966;
+
+} 
+.rec11{
+    border: solid black;
+    transform: rotate(105deg) translate(-25px, -150px);
+
+}
+.rec22{
+    border: solid black;
+    transform: rotate(15deg) translate(50px, 20px);
+
+}
+.rec33{
+    border: solid black;
+    transform: rotate(120deg) translate(-115px, -135px);
+
+}
+.rec44{
+    border: solid black;
+    transform: rotate(-60deg) translate(-20px, 100px);
+
+}
+.rec55{
+    border: solid black;
+    transform: rotate(-15deg) translate(-15px, 75px);
+
+}
+.rec66{
+    border: solid black;
+    transform: rotate(165deg) translate(165px, -30px);
+
+}
+.rec77{
+    border: solid black;
+    transform: rotate(60deg) translate(70px, 75px);
+
+}
+.rec88{
+    border: solid black;
+    transform: rotate(150deg) translate(135px, 50px);
+
+}
+
+.boxOverall3{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    display: flex; 
+    flex-direction: row;
+    margin-top: 300px;
+    margin-left: 300px; 
+}
+.recSet3{
+    height: 25px;
+    width: 150px;
+    border: solid black;
+
+}
+
+/*  here working on */
+.recSet3  {
+    background: linear-gradient( to left, black,  #002966, white );
+}
+.recSet3:nth-of-type(1n + 4) {
+    background: linear-gradient( to right, black,  #002966, white );
+}
+
+
+.rec111{
+    border: solid black;
+    transform: rotate(75deg) translate(35px, -95px);
+
+}
+.rec222{
+    border: solid black;
+    transform: rotate(30deg) translate(45px, -5px);
+
+}
+.rec333{
+    border: solid black;
+    transform: rotate(60deg) translate(0px, -90px);
+
+}
+.rec444{
+    border: solid black;
+    transform: rotate(-75deg) translate(-40px, 115px);
+
+}
+.rec555{
+    border: solid black;
+    transform: rotate(-30deg) translate(-30px, 50px);
+
+}
+.rec666{
+    border: solid black;
+    transform: rotate(15deg) translate(25px, 70px);
+
+}
+.rec777{
+    border: solid black;
+    transform: rotate(75deg) translate(83px, 75px);
+
+}
+.rec888{
+    border: solid black;
+    transform: rotate(30deg) translate(20px, 25px);
+
+}
+
+
+
+.coverRectangle:hover
+.rec2{
+    animation: circles2 5s infinite;
+
+}
+.coverRectangle:hover
+.rec3{
+    animation: circles2 5s infinite;
+
+}
+.coverRectangle:hover
+.rec1{
+    animation: circles2 5s infinite;
+
+}
+.coverRectangle:hover
+.rec5{
+    animation: circles2 5s infinite;
+
+}
+.coverRectangle:hover
+.rec6{
+    animation: circles2 5s infinite;
+
+}
+.coverRectangle:hover
+.rec7{
+    animation: circles2 5s infinite;
+
+}
+.coverRectangle:hover
+.rec8{
+    animation: circles2 5s infinite;
+
+}
+.coverRectangle:hover
+.rec4{
+    animation: circles2 5s infinite;
+
+}
+/* 50H  200W */
+@keyframes circles2{
+    /* 10%{
+        transform: translate(-10px, -50px) rotate(45deg)  scale(-1) ;
+    } */
+    35%{
+        /* rotate(45deg) translate(-10px, -50px) */
+        transform:  scale(2);
+  
+    }
+}
+
+/* .coverRectangle:hover{
+    transform: scale(1);
+    transition: ease-in-out;
+
+} */
+
+.coverRectangle:hover
+.rec22{
+    animation: circles22 5s infinite;
+
+}
+.coverRectangle:hover
+.rec33{
+    animation: circles22 5s infinite;
+
+}
+.coverRectangle:hover
+.rec11{
+    animation: circles22 5s infinite;
+
+}
+.coverRectangle:hover
+.rec44{
+    animation: circles22 5s infinite;
+
+}
+.coverRectangle:hover
+.rec55{
+    animation: circles22 5s infinite;
+
+}
+.coverRectangle:hover
+.rec66{
+    animation: circles22 5s infinite;
+
+}
+.coverRectangle:hover
+.rec77{
+    animation: circles22 5s infinite;
+
+}
+.coverRectangle:hover
+.rec88{
+    animation: circles22 5s infinite;
+
+}
+
+@keyframes circles22{
+    /* translate(-100px, -100px) */
+23%{ transform: rotate(375deg) ;
+
+}
+75%{
+    /* translate(-200px, -200px) */
+    transform: rotate(-375deg) ;
+} 
+
+}
+
+.coverRectangle:hover
+.rec222{
+animation: circles222 5s infinite;
+}
+.coverRectangle:hover
+.rec333{
+animation: circles222 5s infinite;
+}
+.coverRectangle:hover
+.rec111{
+animation: circles222 5s infinite;
+}
+.coverRectangle:hover
+.rec444{
+animation: circles222 5s infinite;
+}
+.coverRectangle:hover
+.rec555{
+animation: circles222 5s infinite;
+}
+.coverRectangle:hover
+.rec666{
+animation: circles222 5s infinite;
+}
+.coverRectangle:hover
+.rec777{
+animation: circles222 5s infinite;
+}
+.coverRectangle:hover
+.rec888{
+animation: circles222 5s infinite;
+}
+@keyframes circles222{
+    /* translate(-100px, -100px) */
+25%{ transform: rotate(-390deg);
+
+}
+75%{
+    /* translate(-200px, -200px) */
+    transform: rotate(390deg) ;
+}
+} 
